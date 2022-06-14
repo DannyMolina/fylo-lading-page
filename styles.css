@@ -59,6 +59,12 @@ header {
   width: 100%;
   text-align: center;
 }
+.section-container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .section-control--h100 {
   height: 100vh;
 }
@@ -299,4 +305,52 @@ li {
   align-items: center;
   display: flex;
   margin: 0 10px;
+}
+
+@media only screen and (min-width: 810px) {
+  /* .section-control {
+    flex-direction: row-reverse;
+    align-items: none;
+  }
+  .section-container-info {
+    padding: 20px;
+  }
+  .section-control--bg-img {
+    background-image: url('./images/bg-curve-desktop.svg');
+  }
+
+  .section-control__paragraph {
+    text-align: left;
+    width: 100%;
+  }
+
+  .form--desktopmedia {
+    display: flex;
+    flex-direction: row;
+  } */
+
+  /* .section-control {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+  }
+
+  
+
+  .section-control__img-ilustration-one {
+    grid-column: 2/3;
+  }
+
+  .section-control__tittle {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .section-control__paragraph {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .section-primary__input {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  } */
 }
